@@ -1,0 +1,46 @@
+body {
+    background-image: url(SimpleBooks.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 25vh;
+}
+
+h1 {
+    color: salmon;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 300px;
+}
+
+p {
+    padding-top: 100px
+}
+
+.button {
+    display: inline-block;
+    border: solid 2px salmon;
+    border-radius: 4px;
+    padding: 10px;
+    color: crimson;
+    cursor: pointer;
+    transition: .5s all;
+}
+
+.button:hover {
+    background-color: bisque;
+    transition: .5s all;
+}
+
+h1::before {
+    content:
+}

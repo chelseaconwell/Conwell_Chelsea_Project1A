@@ -9,6 +9,12 @@ body {
 h1 {
     color: salmon;
     text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px
+   
+}
+h2{
+    text-align: center;
 }
 
 nav ul {
@@ -22,9 +28,7 @@ nav ul li {
     width: 300px;
 }
 
-p {
-    padding-top: 100px
-}
+
 
 .button {
     display: inline-block;
@@ -34,6 +38,7 @@ p {
     color: crimson;
     cursor: pointer;
     transition: .5s all;
+  
 }
 
 .button:hover {

@@ -29,6 +29,12 @@ h1 {
 
 h2 {
     text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+   
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 nav ul {
@@ -73,6 +79,7 @@ a:hover{
 .button:hover {
     background-color: aliceblue;
     transition: .5s all;
+    font-size: 16px;
 }
 
 h1::before {

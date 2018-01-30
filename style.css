@@ -6,18 +6,49 @@ body {
     min-height: 25vh;
 }
 
-#introquote{
+#background {
+    background-image: url(marble-by-heyhan.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 25vh;
+}
+
+#introquote {
     text-align: center;
     width: 500px;
-    display:inline-grid;
+    display: inline-grid;
     align-content: center;
     display: block;
     margin: 0 auto;
-   
 }
-img{
+
+#currentread {
     display: block;
     margin: 0 auto;
+    float: none;
+}
+
+img {
+    float: left;
+    transition: .5s all;
+}
+
+img:hover {
+    width: 300px;
+    transition: 1s all;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.bio {
+    font-size: 18px;
+    padding right: 50px;
+    margin: 20px;
+    background-color: rgba(214, 219, 223, .6)
 }
 
 h1 {
@@ -30,10 +61,18 @@ h1 {
 h2 {
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 25px;
-   
+    font-size: 35px;
+    transition: .1s all;
 }
-p{
+
+h2:hover {
+    text-decoration: underline;
+    text-decoration-color: grey;
+    text-decoration-style: wavy;
+    transition: .1s all;
+}
+
+p {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -41,27 +80,31 @@ nav ul {
     list-style-type: none;
     padding: 0;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 
 nav ul li {
     display: inline-block;
     width: 300px;
 }
-a:link{
+
+a:link {
     text-decoration: none;
     color: rgb(86, 101, 115);
     transition: .2s all;
-   
 }
-a:visited{
+
+a:visited {
     text-decoration: none;
     color: rgb(86, 101, 115);
 }
-a:hover{
+
+a:hover {
     font-size: 25px;
     color: rgb(86, 101, 115);
-    transition: .5s all; 
+    transition: .5s all;
 }
+
 .button {
     padding: 10px;
     border: solid 2px grey;
@@ -69,11 +112,10 @@ a:hover{
     color: rgb(27, 38, 49);
     cursor: pointer;
     transition: .5s all;
-    text-align: center; 
+    text-align: center;
     display: block;
     margin: 0 auto;
     width: 75px;
-    
 }
 
 .button:hover {
@@ -82,6 +124,6 @@ a:hover{
     font-size: 16px;
 }
 
-h1::before {
-    content:
+.book {
+    position: relative;
 }
